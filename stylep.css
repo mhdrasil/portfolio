@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: black;
+    
+}
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+.logo{
+    font-size: 25PX;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+nav ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover{
+    color: aqua;
+    background-color: green;
+}
+header nav ul li a:active{
+    color: green;
+}
+
+    #home{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        color: white;
+        
+    }
+    .home-content{
+       
+        max-width: 600px;
+
+    }
+    .home-content h1 {
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .home-content h3 {
+        font-size: 32px;
+        font-weight: 700;
+        color: aqua;
+    }
+    .home-content p {
+            font-size: 15px;
+            margin: 20px 0 40px;
+            width: 500px;
+    }
+    .btn-box a{
+        align-items: center;
+        justify-content: center;
+        display: inline-flex;
+        width: 150px;
+        height: 100%;
+        border: 2px solid aqua;
+        background-color: aqua;
+        font-size: 19px;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 10px;
+
+    }
+   
+    .image img{
+        
+        width: 100%;
+    margin-top: -64px;
+    height: 417px;
+    margin-left: 3px;
+        
+    }
+    .container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    }
+    /* -----------about---------- */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-content{
+    font-size: 60%;
+    width: 100%;
+    font-weight: 600;
+    color: white;
+}
+.about-content h1{
+    color: aqua;
+    font-size: 20px;
+}
+.about-content p{
+    font-size: 19px;
+    margin: 10px 0 15px;
+    width:fit-content;
+}
+h4.skills_h4 {
+    font-weight: 900;
+}
+.tab-links{
+    text-decoration: underline;
+}
+.about-content ul{
+    
+
+    display: flex;
+    margin: 10px 0 60px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.image2 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    
+}
+.sks{
+    display: flex
+    ;
+        gap: 30px;
+        text-align: start;
+        width: 100%;
+}
+.skills{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px
+}
+.Experience{
+    width: fit-content;
+    display: flex;
+    flex-direction: column; 
+    letter-spacing: 1px
+}
+.Education{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px
+}
+/* -----services--- */
+#Services{
+    color: white;
+    padding: 30px 0;
+    margin-top: 270px;
+    margin-bottom: 270px;
+}
+#Services h1{
+    text-align: center;
+    margin-bottom: 80px;
+    color: aqua;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+   
+}
+.services-list div{
+    background: #9e3333;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+
+}
+.services-list h1,h2{
+    color: rgb(200, 255, 0);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.services-list p{
+    font-size: 15px;
+    margin: 20px 0 40px;
+    width: 400px;
+    background: #9e3333;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+}
+.services-list a{
+    text-decoration: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div :hover{
+    background: red;
+    transform: translate(-10px);
+}
+/* ---------portfolio */
+#portfolio{
+    padding: 50px 0;
+    color: white;
+    
+        
+
+}
+#portfolio h1{
+    text-align: center;
+    margin-bottom: 80px;
+    color: aqua;
+}
+#portfolio h3{
+    color: chartreuse;
+    margin-top: 20px;
+}
+#portfolio p{
+    
+    font-size: 17px;
+    
+    margin-top: 10px;
+    
+
+    
+}
+.work_list {
+    display: flex;
+    grid-gap: 35px;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.work_image img{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
+    
+    
+}
+.layer{
+    width: 100%;
+    height: fit-content;
+
+    
+}
+.btn{
+    display: flex;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid red;
+    border-radius: 6px;
+    padding: 14px 50px;
+}
+/* ------contact----- */
+#contact{
+    padding: 50px 0;
+    color: white;
+    
+}
+#contact h1{
+    margin-top: 10px;
+    color: aqua;
+    text-align: center;
+    
+ 
+}
+
+.contact-left{
+    flex-basis: 60%;
+
+}
+.contact-right {
+    flex-basis: 60%;
+
+}
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+.social-icons{
+   
+margin-top: 30px;
+display: flex;
+margin-left: 422px;
+gap: 13px;
+
+}
+.img_insta{
+    width: 54px;
+    height: auto;
+    display: flex;
+    
+
+}
+.img_link{
+    width: 54px;
+    height: auto;
+    display: flex;
+    
+}
+.img_twit{
+    width: 54px;
+    height: auto;
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+}
+.contact-right form{
+    width: 100%;
+
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.image_abt {
+
+    height: 406px;
+    margin-left: -41px;
+    margin-top: 65px;
+
+}
+.my_email{
+    font-family: initial;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 600;
+
+}
