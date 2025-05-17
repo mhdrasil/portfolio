@@ -148,7 +148,7 @@ h4.skills_h4 {
 .image2 img{
     width: 300px;
     height: 300px;
-    margin-left: 60px;
+    margin-left: 30px;
     
 }
 .sks{
@@ -387,4 +387,380 @@ form btn2{
     font-style: italic;
     font-weight: 600;
 
+}
+@media screen and (max-width: 992px) {
+    #home {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5%;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 42px;
+    }
+
+    .home-content h3 {
+        font-size: 26px;
+    }
+
+    .home-content p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .image img {
+        height: 350px;
+        margin-top: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* about */
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image2 img {
+        /* width: 250px;
+        height: 250px;
+        margin-left: 0;
+        margin-bottom: 20px; */
+        display: none;
+    }
+
+    .about-content {
+        font-size: 70%;
+        text-align: center;
+    }
+
+    .about-content h1 {
+        font-size: 18px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+    .tab-titles {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .tab-links {
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .sks {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .skills, .Experience, .Education {
+        align-items: center;
+        width: 100%;
+    }
+
+
+    /* services */
+    #Services {
+        margin-top: 150px;
+        margin-bottom: 150px;
+        padding: 20px 10px;
+    }
+
+    .services-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 30px;
+    }
+
+    .services-list div {
+        padding: 30px;
+    }
+
+    .services-list h1,
+    .services-list h2 {
+        font-size: 24px;
+    }
+
+    .services-list p {
+        font-size: 14px;
+    }
+
+    .services-list a {
+        font-size: 11px;
+    }
+
+
+
+    /* portfolio */
+    .work_list {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    #portfolio h1 {
+        font-size: 32px;
+    }
+
+    #portfolio p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .btn {
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+
+
+
+    /* contact */
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+        padding: 0 20px;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .image_abt {
+        height: auto;
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #contact h1 {
+        font-size: 30px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 16px;
+    }
+
+    form .btn2 {
+        padding: 12px 50px;
+        font-size: 16px;
+    }
+    .image_abt {
+
+        /* height: 406px;
+        margin-left: -41px;
+        margin-top: 65px;
+     */
+    display: none;
+
+}
+
+}
+
+
+
+
+/* Mobile View - max-width: 600px */
+@media screen and (max-width: 600px) {
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 13px;
+    }
+
+    .btn-box a {
+        width: 130px;
+        font-size: 16px;
+    }
+
+    .image img {
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    /* about */
+    .image2 img {
+        /* margin-top: 200px;
+        width: 400px;
+        height: 500px; */
+        display: none;
+    }
+
+    .about-content {
+        font-size: 65%;
+        margin-top: 110px;
+    }
+
+    .about-content h1 {
+        font-size: 16px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        margin-left: 10px;
+        
+    }
+
+    .tab-links {
+        font-size: 14px;
+    }
+
+    .tab-titles {
+        margin: 10px 0 20px;
+    }
+
+    .about-content ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .sks {
+        gap: 15px;
+        
+    }
+
+    .skills, .Experience, .Education {
+        align-items: flex-start;
+        padding: 0 10px;
+        margin-left: 50px;
+    }
+
+
+
+
+    /* servives */
+    #Services {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .services-list div {
+        padding: 20px;
+    }
+
+    .services-list h1,
+    .services-list h2 {
+        font-size: 20px;
+    }
+
+    .services-list p {
+        font-size: 13px;
+        margin: 15px 0 30px;
+    }
+
+    .services-list a {
+        font-size: 10px;
+    }
+
+
+
+    /* portfolio */
+
+    #portfolio {
+        padding: 30px 0;
+    }
+
+    #portfolio h1 {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    #portfolio h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #portfolio p {
+        font-size: 14px;
+        margin-top: 8px;
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+
+
+    /* contact */
+
+    #contact {
+        padding: 30px 10px;
+    }
+
+    #contact h1 {
+        font-size: 26px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .img_insta,
+    .img_link,
+    .img_twit {
+        width: 40px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    form .btn2 {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+
+    .my_email {
+        font-size: 16px;
+        text-align: center;
+    }
+    .image_abt {
+
+        /* height: 406px;
+        margin-left: -41px;
+        margin-top: 65px;
+     */
+    display: none;
+
+}
 }
